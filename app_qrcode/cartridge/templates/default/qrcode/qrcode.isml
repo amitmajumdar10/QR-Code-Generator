@@ -1,0 +1,7 @@
+<isif condition="${pdict.qrData}">
+    <div class="qr-wrapper">
+        <img src="${URLUtils.https('QRGenerator-Render').toString()}?data=${pdict.qrData}"
+             alt="Generated QR Code"
+             class="qr-image" />
+    </div>
+</isif>
